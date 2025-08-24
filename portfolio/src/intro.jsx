@@ -1,8 +1,10 @@
 import './intro.css'
+import Menu from './Menu.jsx'
 
 function Intro()
 {
     return(<>
+        <Menu />
         <div className='container'>
             <div className='left'>
                 <h1 className="PortfolioName">Amin Bakhshoodeh</h1>
