@@ -3,8 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Intro from './intro.jsx'
-import Menu from './Menu.jsx'
-
 import {
   BrowserRouter,
   Router,
@@ -19,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Router path="/">
-            <Menu />
+            
             <Intro />
           </Router>
         </Switch>
