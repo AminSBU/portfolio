@@ -1,8 +1,9 @@
 import React from "react";
 import { useState } from 'react'
+import { Routes, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom"; // Moved to top with other imports
 import './App.css'
 import NavBar from './NavBar.jsx'
-import { Routes, Route } from "react-router-dom";
 import Home from './Home.jsx'
 import Contact from './Contact.jsx'
 import About from './About.jsx'
