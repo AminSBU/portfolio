@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import NavBar from './NavBar.jsx'
 import Intro from './intro.jsx'
 import {
   Routes,
