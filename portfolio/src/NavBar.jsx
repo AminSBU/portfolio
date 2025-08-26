@@ -7,10 +7,18 @@ export default function NavBar()
             <header>
                 <nav className="topnav">
                     <div className="sitename">
-                        <NavLink to="/" end>
+                        <NavLink to="/" end className={({isActive}) => (isActive ? "active" : "")}>
                             MainMenu
                         </NavLink>
                     </div>
+
+                    <ul>
+                        <li>
+                            <NavLink to="/" end className={({isActive}) => (isActive ? "active" : "")}>
+                                Home
+                            </NavLink>
+                        </li>
+                    </ul>
                 </nav>
             </header>
         </>
