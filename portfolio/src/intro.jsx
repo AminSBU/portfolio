@@ -1,4 +1,3 @@
-import './intro.css'
 import Menu from './Menu.jsx'
 
 function Intro()
