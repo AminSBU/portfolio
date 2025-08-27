@@ -1,0 +1,39 @@
+.PortfolioName, .paragraphText{
+    color: white;
+    text-align: left;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left{
+    flex: 1;
+    text-align: left;
+}
+
+.right{
+    width: 250px;
+    text-align: left;
+    color: white;
+}
+
+.imageClass{
+    border-radius: 500px;
+    width: 300px;
+    height: 300px;
+}
+
+.PortfolioName:hover{
+    color:rgb(219, 219, 205);
+}
+
+.resumeBtn{
+    background-color: blue;
+    color: white;
+    width: 250px;
+}
