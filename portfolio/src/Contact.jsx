@@ -1,4 +1,6 @@
 export default function Contact()
 {
-    return(<></>);
+    return(<>
+        <p>contact</p>
+    </>);
 }
