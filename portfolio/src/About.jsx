@@ -14,7 +14,7 @@ export default function About()
                                             and Printed Circuit Board (PCB) Design allows me to contribute effectively 
                                             to diverse projects, enhancing system performance and functionality.</p>
 
-                <button className='resumeBtn'>See CV !</button>
+                <button className='resumeBtn'><a href='https://abrehamrahi.ir/o/public/NKOBGvk6/'> Download CV !</a></button>
             </div>
             <div className='right'>
                 <img src='src/img/avatar.jpeg' className='imageClass'></img>
