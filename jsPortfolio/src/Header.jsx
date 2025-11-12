@@ -1,5 +1,5 @@
-// Header.jsx - Remove the Router imports since they're not used here
 import { Link } from 'react-router-dom';
+import './Header.css'
 
 function Header() {
   return (
