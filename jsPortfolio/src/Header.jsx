@@ -4,12 +4,11 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header style={{ 
-      backgroundColor: '#333', 
+      backgroundColor: 'transparent', 
       color: 'white', 
       padding: '1rem',
       marginBottom: '2rem'
     }}>
-      <h1>My Awesome Website</h1>
       <nav>
         <ul style={{ listStyle: 'none', display: 'flex', gap: '2rem', margin: 0, padding: 0 }}>
           <li><Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link></li>

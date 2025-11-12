@@ -13,7 +13,11 @@ function App() {
     <Router>
       <div>
         <Header />
-        <main style={{ padding: '0 2rem' }}>
+        <main style={{ 
+          padding: '0 2rem',
+          background: 'transparent',   // Explicitly transparent
+          minHeight: '100vh'           // Optional: ensures it takes full height
+        }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
