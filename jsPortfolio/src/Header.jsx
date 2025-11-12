@@ -14,6 +14,7 @@ function Header() {
           <a href="#" class="fa fa-linkedin"></a>
           <a href="#" class="fa fa-github"></a>
           <a href="#" class="fa fa-twitter"></a>
+          <input className='search-input' type='text' placeholder='searching ...'></input>
           <li><Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link></li>
           <li><Link to="/about" style={{ color: 'white', textDecoration: 'none' }}>About</Link></li>
           <li><Link to="/contact" style={{ color: 'white', textDecoration: 'none' }}>Contact</Link></li>
