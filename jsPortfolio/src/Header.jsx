@@ -11,10 +11,15 @@ function Header() {
     }}>
       <nav>
         <ul style={{ listStyle: 'none', display: 'flex', gap: '2rem', margin: 0, padding: 0 }}>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-github"></a>
+          <a href="#" class="fa fa-twitter"></a>
           <li><Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link></li>
           <li><Link to="/about" style={{ color: 'white', textDecoration: 'none' }}>About</Link></li>
           <li><Link to="/contact" style={{ color: 'white', textDecoration: 'none' }}>Contact</Link></li>
         </ul>
+
+
       </nav>
     </header>
   );
