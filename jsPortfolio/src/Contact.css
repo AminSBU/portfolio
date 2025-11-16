@@ -1,0 +1,23 @@
+.name-contact,
+.mail-contact
+{
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: medium;
+}
+
+.message-contact
+{
+    border-radius: 20px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 1.4rem;     /* height of each line */
+    height: calc(1.4rem * 7); /* 3 lines visible */
+    overflow: hidden;         /* removes scrollbar */
+    resize: none;
+    font-size: medium;
+}
