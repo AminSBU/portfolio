@@ -6,29 +6,55 @@ function Contact()
     const [name, setName] = useState("");
     const [mail, setMail] = useState("");
     const [message, setMessage] = useState("");
-    const [formData, setFormData] = useState("");
 
-    const clearButtonHandler = () => {
-        setFormData("");
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log('Form submitted:', { name, mail, message });
+        // Add your form submission logic here
+    };
+
+    const clearForm = () => {
         setName("");
-    }
+        setMail("");
+        setMessage("");
+    };
 
     return(
         <>
             <div className="form-container">
-                <form className="form">
+                <form className="form" onSubmit={handleSubmit}>
                     <div className="name-div">
-                        <input type="text" placeholder="Your name ..." className="name-contact" value={name} ></input>
+                        <input 
+                            type="text" 
+                            placeholder="Your name ..." 
+                            className="name-contact" 
+                            value={name} 
+                            onChange={(e) => setName(e.target.value)}
+                            required
+                        />
                     </div>
                     <div className="mail-div">
-                        <input type="mail" placeholder="Your email ..." className="mail-contact"></input>
+                        <input 
+                            type="email" 
+                            placeholder="Your email ..." 
+                            className="mail-contact"
+                            value={mail}
+                            onChange={(e) => setMail(e.target.value)}
+                            required
+                        />
                     </div>
                     <div className="mail-div">
-                        <textarea className="message-contact" placeholder="Write your message ..."></textarea>
+                        <textarea 
+                            className="message-contact" 
+                            placeholder="Write your message ..."
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                            required
+                        />
                     </div>
                     <div className="button-div">
-                        <button className="send-button" onClick={clearButtonHandler}>Send</button>
-                        <button className="clear-button">Clear</button>
+                        <button type="submit" className="send-button">Send</button>
+                        <button type="button" className="clear-button" onClick={clearForm}>Clear</button>
                     </div>
 
                 </form>
