@@ -11,6 +11,14 @@
     grid-row-start: 1;
 }
 
+.others {
+    grid-column: span 4 / span 4;
+    grid-row: span 3 / span 3;
+    grid-column-start: 5;
+    grid-row-start: 2;
+    color: white;
+}
+
 .form
 {
     padding: 30px;

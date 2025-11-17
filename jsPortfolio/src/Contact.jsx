@@ -58,6 +58,14 @@ function Contact()
                     </div>
 
                 </form>
+                <div className='others'>
+                    <div className='linkedin-profile'>
+                        <a href="#" className="fa fa-linkedin" style={{ color: 'white', fontSize: '1.5rem' }}> Amin Bakhshoodeh</a>
+                    </div>
+                    <div className='email-address'>
+                        <i class="fa fa-envelope"> omid.elc88@gmail.com</i>
+                    </div>
+                </div>
             </div>
         </>
     );
