@@ -21,3 +21,15 @@
     resize: none;
     font-size: medium;
 }
+
+.button-div button {
+    margin-top: 20px;
+    margin-right: 40px; /* space between buttons */
+    padding: 5px 15px;
+    transform: scale(1.5); /* Scales button by 150% */
+    transform-origin: center; /* Keeps it centered */
+    font-size: medium;
+}
+.button-div button:last-child {
+    margin-right: 0; /* remove space on the last one */
+}

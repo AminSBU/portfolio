@@ -15,7 +15,7 @@ function Contact()
                     <div className="mail-div">
                         <textarea className="message-contact" placeholder="Write your message ..."></textarea>
                     </div>
-                    <div className="mail-div">
+                    <div className="button-div">
                         <button className="send-button">Send</button>
                         <button className="clear-button">Clear</button>
                     </div>
