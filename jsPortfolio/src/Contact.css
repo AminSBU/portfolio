@@ -61,3 +61,10 @@
 .button-div button:last-child {
     margin-right: 0; /* remove space on the last one */
 }
+
+.email-address, .linkedin-profile
+{
+    margin-left: 30px;
+    text-align: left;
+    align-items: center;
+}
