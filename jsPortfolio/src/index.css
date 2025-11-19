@@ -12,8 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  
-  background-image: url('./img/bg.jpg');
+  overflow: hidden; /* remove scroll bar */
 }
 
 a {
@@ -31,6 +30,13 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  padding: 0;
+  background-image: url('./img/bg.jpg'); /* background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden; 
 }
 
 h1 {
