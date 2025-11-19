@@ -60,10 +60,10 @@ function Contact()
                 </form>
                 <div className='others'>
                     <div className='linkedin-profile'>
-                        <a href="https://www.linkedin.com/in/amin-bakhshoodeh/" className="fa fa-linkedin" style={{ color: 'white', fontSize: '1.5rem' }}> Amin Bakhshoodeh</a>
+                        <a href="https://www.linkedin.com/in/amin-bakhshoodeh/" className="fa fa-linkedin linkedin-icon" style={{ color: 'white', fontSize: '1.5rem' }}> Amin Bakhshoodeh</a>
                     </div>
                     <div className='email-address'>
-                        <i class="fa fa-envelope"> omid.elc88@gmail.com</i>
+                        <i class="fa fa-envelope mail-icon"> omid.elc88@gmail.com</i>
                     </div>
                 </div>
             </div>
