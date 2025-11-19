@@ -69,9 +69,17 @@
     align-items: center;
 }
 
-.mail-icon, .linkedin-icon
-{
+.mail-icon,
+.linkedin-icon {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
     padding: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 400px;
+}
+
+.linkedin-icon {
+    margin-bottom: 10px; /* space under mail div */
 }
